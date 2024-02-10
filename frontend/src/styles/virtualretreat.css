@@ -1,0 +1,76 @@
+.virtual-retreat-container {
+    position: relative;
+  }
+  
+  .toggle-button {
+    position: absolute;
+    top: 10px; /* Adjust the distance from the bottom as needed */
+    right: 10px; /* Adjust the distance from the left as needed */
+    background-color: #F7FFE5; /* Adjust button styles as needed */
+    transition: background-color 0.3s ease;
+    border: none;
+    border-radius: 10px;
+    color: #3A4D39;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .toggle-button:hover {
+    background-color: #C4D7B2; /* Set the hover background color */
+  }
+
+  .toggle-button1 {
+    position: absolute;
+    top: 10px; /* Adjust the distance from the bottom as needed */
+    left: 10px; /* Adjust the distance from the left as needed */
+    background-color: #F7FFE5; /* Adjust button styles as needed */
+    transition: background-color 0.3s ease;
+    border: none;
+    border-radius: 10px;
+    color: #3A4D39;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .toggle-button1:hover {
+    background-color: #C4D7B2; /* Set the hover background color */
+  }
+
+  .spotify-widget-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 300px; /* Adjust the width as needed */
+    height: 352px; /* Adjust the height as needed */
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .virtual-retreat-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 12px;
+  }
+
+  .draggable-widget {
+    cursor: grab;
+    user-select: none;
+    position: left;
+    z-index: 1;
+  }
+  
+  .draggable-widget:active {
+    cursor: grabbing;
+  }
+
+  
+  .draggable-cursor {
+    z-index: 2;
+    margin-left: -30px;
+    font-size: 50px; /* Adjust the font size as needed */
+    cursor: grab; /* Optional: Use 'grab' cursor for better indication */
+  }
+  
+  
+  

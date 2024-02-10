@@ -1,0 +1,22 @@
+/* SignUpForm.css */
+.signup-page {
+    background-image: url('../../public/bg.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .glass-container {
+    background: rgba(255, 255, 255, 0.1); /* Adjust the alpha value for the glass effect */
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .mt-3{
+    margin-top: 20px;
+  }
+  

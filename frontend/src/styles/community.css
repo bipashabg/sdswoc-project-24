@@ -1,0 +1,40 @@
+.news-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url('../../public/bluebg.jpg');
+  }
+  
+  .articles-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .article-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+  
+    &:hover {
+      transform: scale(1.05);
+    }
+  
+    h3 {
+      margin-bottom: 10px;
+      font-size: 1.5em;
+    }
+  
+    p {
+      margin-bottom: 10px;
+      color: #555;
+    }
+  
+    a {
+      color: #007bff;
+      text-decoration: none;
+      display: inline-block;
+    }
+  }

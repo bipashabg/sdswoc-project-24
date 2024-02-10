@@ -1,0 +1,77 @@
+.breathing-animation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    transition: background-color 0.5s ease;
+  }
+  
+  .dark-mode, .green-mode, .purple-mode {
+    color: #fff;
+  }
+  
+  .circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #3498db;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+    animation: pulse 4s infinite alternate;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1.1);
+      opacity: 0.7;
+    }
+  }
+  
+  .inhale .circle {
+    animation-name: inhale;
+  }
+  
+  .exhale .circle {
+    animation-name: exhale;
+  }
+  
+  @keyframes inhale {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1.2);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes exhale {
+    0% {
+      transform: scale(1.2);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  
+  }
+  .theme-toggle-button {
+    margin-top: 40px; /* Add some margin to separate from the animation */
+    padding: 10px 20px;
+    background-color: #191825;
+    color: #FFFFD0;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+  }

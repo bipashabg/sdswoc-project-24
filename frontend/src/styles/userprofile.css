@@ -1,0 +1,11 @@
+.mt-5{
+    align-items: center;
+    width:max-content
+
+}
+.col-md-3{
+    box-sizing:border-box;
+    block-size: auto;
+    width: 300px;
+    height: 60px;
+}
