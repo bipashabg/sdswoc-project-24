@@ -38,7 +38,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/sdswoc/Unwind.git
+git clone https://github.com/bipashabg/sdswoc-project-24
 Navigate to the frontend and backend directories and install dependencies:
 
 bash
